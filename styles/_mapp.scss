@@ -1,4 +1,25 @@
 .mapp {
   height: calc(100vh - 300px);
   background-color: rgb(142, 245, 202);
+  position: relative;
+  z-index: -100;
 }
+
+// #mapid {
+//   height: 100%;
+//   width: 100%;
+//   background-color: rebeccapurple;
+// }
+
+// .leaflet-verticalcenter {
+//   position: absolute;
+//   z-index: 1000;
+//   pointer-events: none;
+//   top: 100px; /* possible because the placeholder's parent is the map */
+//   // transform: translateY(-50%); /* using the CSS3 Transform technique */
+//   // padding-top: 10px;
+// }
+
+// .leaflet-verticalcenter .leaflet-control {
+//   margin-bottom: 10px;
+// }
